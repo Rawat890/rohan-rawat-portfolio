@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0b1120"/>
+  <circle cx="680" cy="80" r="180" fill="#0ea5e9" fill-opacity="0.12"/>
+  <circle cx="120" cy="390" r="160" fill="#6366f1" fill-opacity="0.12"/>
+  <!-- App Window -->
+  <rect x="70" y="45" width="660" height="360" rx="16" fill="#111827" stroke="#1e293b" stroke-width="2"/>
+  <rect x="70" y="45" width="660" height="40" rx="16" fill="#1e293b"/>
+  <circle cx="96" cy="65" r="6" fill="#ef4444"/>
+  <circle cx="116" cy="65" r="6" fill="#f59e0b"/>
+  <circle cx="136" cy="65" r="6" fill="#10b981"/>
+  <text x="400" y="70" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="13">NexaChat — MERN + Groq LLM Assistant</text>
+  <!-- Sidebar -->
+  <rect x="85" y="100" width="160" height="290" rx="10" fill="#0f172a"/>
+  <rect x="100" y="118" width="130" height="32" rx="8" fill="#0ea5e9" fill-opacity="0.2" stroke="#0ea5e9"/>
+  <text x="165" y="138" text-anchor="middle" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">+ New Chat</text>
+  <rect x="100" y="166" width="110" height="10" rx="5" fill="#334155"/>
+  <rect x="100" y="190" width="95" height="10" rx="5" fill="#1e293b"/>
+  <rect x="100" y="214" width="120" height="10" rx="5" fill="#1e293b"/>
+  <!-- Chat Bubbles -->
+  <rect x="410" y="118" width="295" height="44" rx="12" fill="#0284c7"/>
+  <text x="430" y="145" fill="#ffffff" font-family="sans-serif" font-size="13">Explain JWT auth flow in Express.js</text>
+  <rect x="265" y="180" width="410" height="115" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="285" y="206" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">NexaChat AI (Groq Llama-3 Inference)</text>
+  <rect x="285" y="222" width="350" height="10" rx="5" fill="#64748b"/>
+  <rect x="285" y="242" width="310" height="10" rx="5" fill="#475569"/>
+  <rect x="285" y="262" width="240" height="10" rx="5" fill="#475569"/>
+  <!-- Input Box -->
+  <rect x="265" y="342" width="440" height="42" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="285" y="368" fill="#64748b" font-family="sans-serif" font-size="12">Ask NexaChat anything...</text>
+  <rect x="645" y="349" width="52" height="28" rx="6" fill="#0ea5e9"/>
+  <text x="671" y="367" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="11" font-weight="bold">Send</text>
+</svg>
