@@ -1,4 +1,4 @@
-import profileAvatar from '../assets/profile-avatar.svg'
+import profileAvatar from '../assets/img.png'
 import nexachatImg from '../assets/project-nexachat.svg'
 import creationsImg from '../assets/project-creations.svg'
 import quickchatImg from '../assets/project-quickchat.svg'
