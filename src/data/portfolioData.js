@@ -135,7 +135,7 @@ export const experienceData = [
     role: 'React Native Developer Intern',
     company: 'Diligentic Infotech',
     location: 'Hoshiarpur, Punjab, India',
-    period: 'January 2025 – April 2025',
+    period: 'January 2025 – March 2025',
     type: 'Internship',
     responsibilities: [
       'Contributed to live production mobile features for Android and iOS under senior engineer mentorship, independently delivering 3+ reusable UI components within the first 60 days.',
