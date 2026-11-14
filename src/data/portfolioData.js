@@ -121,7 +121,7 @@ export const experienceData = [
     role: 'Associate Software Engineer (React Native Developer)',
     company: 'Diligentic Infotech',
     location: 'Hoshiarpur, Punjab, India',
-    period: 'May 2025 – April 2026',
+    period: 'April 2025 – April 2026',
     type: 'Full-Time',
     responsibilities: [
       'Shipped 3+ production mobile applications across iOS and Android using React Native CLI and Expo on schedule every sprint.',
