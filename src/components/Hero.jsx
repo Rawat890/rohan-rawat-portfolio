@@ -140,14 +140,22 @@ export default function Hero() {
             <div className="relative w-full max-w-sm">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-brand-500 via-indigo-500 to-purple-500 opacity-35 blur-xl" />
 
-              <div className="relative glass-card rounded-full p-3 animate-float w-80 h-80 md:w-96 md:h-96 ">
-                <img
-                  src={personalInfo.avatar}
-                  alt={personalInfo.name}
-                  className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover object-top shadow-xl"
-                />
 
-                <div className="mt-4 flex items-center justify-between px-2">
+              <div className="relative animate-float">
+                {/* Gradient outer circle */}
+                <div className="w-80 h-80 md:w-96 md:h-96 rounded-full p-[4px] bg-gradient-to-tr from-brand-500 via-indigo-500 to-purple-500 shadow-2xl shadow-indigo-500/20">
+
+                  {/* Image container */}
+                  <div className="w-full h-full rounded-full overflow-hidden bg-slate-800">
+                    <img
+                      src={personalInfo.avatar}
+                      alt={personalInfo.name}
+                      className="w-full h-full object-cover object-[center_10%]" />
+                  </div>
+                </div>
+
+                {/* Profile information below the circle */}
+                <div className="mt-5 flex items-center justify-between px-4">
                   <div className="flex items-center gap-2 text-xs font-mono text-slate-300">
                     <Terminal className="w-4 h-4 text-brand-400" />
                     <span>MERN &bull; React Native &bull; LLMs</span>
@@ -159,6 +167,7 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
+
             </div>
           </motion.div>
         </div>
