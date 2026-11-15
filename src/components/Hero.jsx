@@ -138,18 +138,21 @@ export default function Hero() {
             className="lg:col-span-5 flex justify-center"
           >
             <div className="relative w-full max-w-sm">
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-brand-500 via-indigo-500 to-purple-500 opacity-35 blur-xl" />
-              <div className="relative glass-card rounded-3xl p-5 animate-float">
+              <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-brand-500 via-indigo-500 to-purple-500 opacity-35 blur-xl" />
+
+              <div className="relative glass-card rounded-full p-3 animate-float w-80 h-80 md:w-96 md:h-96 ">
                 <img
                   src={personalInfo.avatar}
                   alt={personalInfo.name}
-                  className="w-full h-auto rounded-2xl object-cover shadow-xl"
+                  className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover object-top shadow-xl"
                 />
+
                 <div className="mt-4 flex items-center justify-between px-2">
                   <div className="flex items-center gap-2 text-xs font-mono text-slate-300">
                     <Terminal className="w-4 h-4 text-brand-400" />
                     <span>MERN &bull; React Native &bull; LLMs</span>
                   </div>
+
                   <span className="inline-flex items-center gap-1.5 text-xs text-emerald-400 font-medium">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
                     Open to Work
